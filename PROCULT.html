@@ -23,27 +23,29 @@
     }
 
     .color {
-      background-color: #0d6efd;
+      background-color: #5fc3d9;
       border-radius: 5px;
       width: auto;
       padding: 3px;
     }
 
     .navtop {
-      background-color: #48352f;
+      background-color:#5fc3d9;
     }
 
     .organograma {
       width: 50%;
       height: auto;
     }
-    #button{
-      background-color: #fccc54;
+    .carrosel{
+      width: 255px;
+      height: 220px;
     }
-    .botao{
-      background-color: #fccc54;
+    .f{
+      height: 10rem;
     }
-      
+
+
   </style>
 </head>
 
@@ -54,7 +56,7 @@
       text-center">
       <div class="container-fluid">
         <div class="row">
-          <img src="logo.png" class="ml-5">
+          <img src="img/logo.png" class="ml-5">
         </div>
         <div class="navbar-collapse row text-light" id="navbarSupportedContent">
           <ul class="navbar-nav justify-content-center me-5 mb-2 mb-lg-0">
@@ -117,7 +119,7 @@
         </div>
 
         <div class="col col-lg-4 w-25">
-          <img src="principal.png" class="img-fluid mt-2 ms-5" alt="...">
+          <img src="img/principal.png" class="img-fluid mt-2 ms-5" alt="...">
         </div>
       </div>
     </div>
@@ -125,8 +127,8 @@
   <section class="container text-center ">
     <div class="row">
       <ul class="nav nav-pills justify-content-sm-center mb-4" id="pills-tab" role="tablist">
-        <li class="nav-item " role="presentation">
-          <button class="nav-link active " id="pills-servicos-tab" data-bs-toggle="pill"
+        <li class="nav-item " role="height: 23rem">
+          <button class="nav-link active" id="pills-servicos-tab" data-bs-toggle="pill"
             data-bs-target="#pills-servicos" type="button" role="tab" aria-controls="pills-servicos"
             aria-selected="true">Serviços</button>
         </li>
@@ -1152,7 +1154,7 @@
                 <div class="tab-pane fade  justify-content-sm-center mb-4" id="pills-organograma" role="tabpanel"
                   aria-labelledby="pills-organograma-tab">
                   <div class="row g-4 justify-content-sm-center">
-                    <img src="ORGANOGRAMA-Procult_Prancheta.png" class="card-img-top organograma" alt="...">
+                    <img src="img/ORGANOGRAMA-Procult_Prancheta.png" class="card-img-top organograma" alt="...">
                   </div>
                 </div>
               </div>
@@ -1168,33 +1170,27 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="d-flex justify-content-center">
-            <div class="card mx-2" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image 1">
+            <div class="card mx-2" style="width: 16rem;">
+              <img src="img/web3.jpg" class="card-img-top carrosel" alt="Placeholder Image 1">
               <div class="card-body">
-                <h5 class="card-title">Card Title 1</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn botao">Go somewhere</a>
+                <p class="card-text">Nordestinados a Ler discute poesia e filosofia em encontro gratuito, inscrições estão abertas</p>
+                <a href="https://www.ufca.edu.br/informes/projeto-de-cultura-discute-poesia-e-filosofia-em-encontro-gratuito-inscricoes-estao-abertas/" target="_blank" class="btn botao">Saiba mais</a>
               </div>
             </div>
 
-            <div class="card mx-2" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image 2">
+            <div class="card mx-2" style="width: 16rem;">
+              <img src="img/Festival-UFCA-de-Culturas_1.png" class="card-img-top carrosel" alt="Placeholder Image 2">
               <div class="card-body">
-                <h5 class="card-title">Card Title 2</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn botao">Go somewhere</a>
+                <p class="card-text">Procult/UFCA cria grupo de WhatsApp para capitães das equipes participantes do Festival UFCA de Culturas.</p>
+                <a href="https://www.ufca.edu.br/informes/procult-ufca-cria-grupo-de-whatsapp-para-capitaes-das-equipes-participantes-do-festival-ufca-de-culturas/" target="_blank" class="btn botao">Saiba mais</a>
               </div>
             </div>
 
-            <div class="card mx-2" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image 3">
+            <div class="card mx-2" style="width: 16rem;">
+              <img src="img/museu.jpeg" class="card-img-top carrosel" alt="Placeholder Image 3">
               <div class="card-body">
-                <h5 class="card-title">Card Title 3</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn botao">Go somewhere</a>
+                <p class="card-text">Museu do Patrimônio Cultural do Cariri é o nome do novo museu virtual da UFCA.</p>
+                <a href="https://www.ufca.edu.br/informes/museu-do-patrimonio-cultural-do-cariri-e-o-nome-do-novo-museu-virtual-da-ufca/" target="_blank" class="btn botao">Saiba mais</a>
               </div>
             </div>
 
@@ -1202,33 +1198,27 @@
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-center">
-            <div class="card mx-2" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image 1">
+            <div class="card mx-2" style="width: 16rem;">
+              <img src="img/web1.jpg" class="card-img-top carrosel" alt="Placeholder Image 1">
               <div class="card-body">
-                <h5 class="card-title">Card Title 1</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn botao">Go somewhere</a>
+                <p class="card-text">Procult/UFCA comunica pausa temporária nas reservas de Quadras e Materiais Esportivos.</p>
+                <a href="https://www.ufca.edu.br/informes/a-pro-reitoria-de-cultura-comunica-pausa-temporaria-nas-reservas-de-quadras-e-materiais-esportivos/" target="_blank" class="btn botao">Saiba mais</a>
               </div>
             </div>
 
-            <div class="card mx-2" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image 2">
+            <div class="card mx-2" style="width: 16rem;">
+              <img src="img/climajazz.jpeg" class="card-img-top carrosel" alt="Placeholder Image 2">
               <div class="card-body">
-                <h5 class="card-title">Card Title 2</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn botao">Go somewhere</a>
+                <p class="card-text">Procult/UFCA realiza quarta edição do Clima Jazz nesta sexta-feira, 24 de novembro.</p>
+                <a href="ufca.edu.br/informes/ufca-celebra-o-jazz-com-imbu-trio-grupo-se-apresenta-dia-24-no-refugio-cafe/" target="_blank" class="btn botao">Saiba mais</a>
               </div>
             </div>
 
-            <div class="card mx-2" style="width: 18rem;">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image 3">
+            <div class="card mx-2" style="width: 16rem;;">
+              <img src="img/muvuca.jpg" class="card-img-top carrosel" alt="Placeholder Image 3">
               <div class="card-body">
-                <h5 class="card-title">Card Title 3</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-                <a href="#" class="btn botao">Go somewhere</a>
+                <p class="card-text">Terceira edição do “É Muvuca” ocorre nos dias 27, 28 e 29 de novembro de 2023.</p>
+                <a href="https://www.ufca.edu.br/informes/torta-na-cara-caca-ao-tesouro-e-muito-mais-veja-a-programacao-do-e-muvuca-2023/" target="_blank" class="btn botao">Saiba mais</a>
               </div>
             </div>
           </div>
@@ -1246,8 +1236,14 @@
   </section>
 </body>
 <footer class="navtop">
-  <div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a sunt eum possimus id autem, culpa quidem corrupti tempore odio exercitationem blanditiis quam accusamus nemo ipsa illo libero iusto quia.
+  <div class=" text-wrap row justify-content-sm-center ms-5" >
+    <p class="col-lg-12"><h3 style="color: rgb(255, 255, 255);"> Universidade Federal do Cariri</h3></p>
+      <p class="col-lg-12" style="color: rgb(255, 255, 255)"> Av. Tenente Raimundo Rocha Nº 1639
+      Bairro Cidade Universitária
+      Juazeiro do Norte - Ceará
+      CEP 63048-080</p>
+      
+      <p class="col-lg-12" style="color: rgb(255, 255, 255)">  +55 (88) 3221 9200</p>
   </div>
 </footer>
 </html>
